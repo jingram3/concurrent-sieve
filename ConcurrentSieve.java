@@ -1,3 +1,8 @@
+/**Joseph Ingram
+ * Concurrent Prime Sieve
+ * Fall 2012 CS493E
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -84,7 +89,5 @@ public class ConcurrentSieve {
 		int count = new ConcurrentSieve().sieve(10000000);
 		System.out.println("Primes: " + count);
 		System.out.println(System.currentTimeMillis()-startTime);
-		
 	}
-
 }
